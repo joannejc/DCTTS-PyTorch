@@ -5,7 +5,7 @@ Note this is still WIP and I will update once the training is complete and worki
 
 ## 1. Before Training
 One should have a training and eval directory containing melspectrograms and linear spectrograms using tools such as
-Librosa to compute.
+[Librosa](https://librosa.github.io/librosa/) to compute.
 
 
 # Todo
