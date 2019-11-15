@@ -3,6 +3,11 @@ A Pytorch implementation of DCTTS ([Efficiently Trainable Text-to-Speech System 
 
 Note this is still WIP and I will update once the training is complete and working well.
 
+## 1. Before Training
+One should have a training and eval directory containing melspectrograms and linear spectrograms using tools such as
+[Librosa](https://librosa.github.io/librosa/) to compute.
+
+
 # Todo
 1. batching
 2. add regularization such as dropout, layer normalization, etc
