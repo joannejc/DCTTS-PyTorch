@@ -7,6 +7,8 @@ Note this is still WIP and I will update once the training is complete and worki
 One should have a training and eval directory containing melspectrograms and linear spectrograms using tools such as
 [Librosa](https://librosa.github.io/librosa/) to compute.
 
+## 2. Train Text2Mel
+To train text2mel module, run the following command `python text2mel.py`. Evaluation audio will be saved in local directory called `save_stuff/text2mel`.
 
 # Todo
 1. batching
