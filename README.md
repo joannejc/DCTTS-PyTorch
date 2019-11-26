@@ -8,7 +8,11 @@ One should have a training and eval directory containing melspectrograms and lin
 [Librosa](https://librosa.github.io/librosa/) to compute.
 
 ## 2. Train Text2Mel
-To train text2mel module, run the following command `python text2mel.py`. Evaluation audio will be saved in local directory called `save_stuff/text2mel`.
+To train text2mel module, run the following command `python text2mel.py`. Evaluation audio will be saved in local directory called `save_stuff/text2mel`. One can adjust the *batch_size* hyperparameter in the `train_text2mel.py` to maximize GPU usage.
+
+## 3. Train SSRN
+To train text2mel module, run the following command `python text2mel.py`. Evaluation audio will be saved in local directory called `save_stuff/ssrn`. One can adjust the *batch_size* hyperparameter in the `train_ssrn.py` to maximize GPU usage.
+
 
 # Todo
 1. batching
